@@ -4,7 +4,7 @@ import Image from 'next/image';
 import logo1 from './assets/1.png';
 import logo2 from './assets/2.png';
 
-const Preloader = () => {
+const PreLoader = () => {
   const [startZoom, setStartZoom] = useState(false);
 
   useEffect(() => {
